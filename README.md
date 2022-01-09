@@ -17,14 +17,14 @@ do projeto registrada na variável `KEY_VALUE`
 
 ## Quotes
 
-O método quotes recebe como parâmetro uma string contendo as siglas das moedas que deseja ver
+O método quotes recebe como parâmetro uma string contendo as siglas das moedas que deseja ver.
 Exemplo:
 
     kenCrypto.quotes("btc, eth")
 
 ## Conversion
 
-o método convert recebe como parâmetro dois valores separados por vírgula, primeiro o montante que deseja converter, e segundo uma string contendo o par que deseja converter separados por vírgula.
+o método convert recebe como parâmetro duas strings separadas por vírgula, o par que deseja converter.
 Exemplo:
 
-    kenCrypto.conversion(1000, "btc,brl")
+    kenCrypto.conversion("btc","brl")
