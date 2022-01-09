@@ -13,7 +13,7 @@ do projeto registrada na variável `KEY_VALUE`
 
 ### Para acessar os resultados use a seguinte estrutura
 
-    const response = kenCrypto.`[método](parâmetros)`.then((response) => {return response})
+    const response = kenCrypto.[método](parâmetros).then((response) => {return response})
 
 ## Quotes
 
